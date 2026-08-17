@@ -33,14 +33,31 @@
     /* Defined font for all text in this website*/
 }
 
-.header, .hero, .footer {
+.fullhero, .footer {
     background-color: #1F2937;
+}
+
+.fullhero {
+    display: flex;
+    flex-direction: column;
+    padding: 10px 150px 150px;
+}
+
+.hero {
+    display: flex;
+    flex-direction: row;
+}
+
+.lefthero {
+    display: flex;
+    flex-direction: column;
 }
 
 .header {
     display: flex;
-    padding: 0 16px;
-    justify-content: space-between; 
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
 }
 
 ul {
