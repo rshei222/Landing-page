@@ -33,6 +33,16 @@
     /* Defined font for all text in this website*/
 }
 
+h1 {
+    margin: 0px;
+    padding: 0px;
+}
+
+p {
+    margin: 0px;
+    padding: 0px;
+}
+
 .fullhero, .footer {
     background-color: #1F2937;
 }
@@ -103,7 +113,6 @@ button {
     align-self: flex-start;
     /* align-self used to stop button from stretching in column form,
     since flex-start tells it to stay at the axis don't move */
-
 }
 
 .infoheader {
