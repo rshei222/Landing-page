@@ -12,3 +12,8 @@
     font-style: normal;
     font-weight: 700;
 }
+
+* {
+    font-family: "Roboto", sans-serif;
+    /* Defined font for all text in this website*/
+}
