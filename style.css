@@ -8,12 +8,35 @@
 
 @font-face {
     font-family: "Roboto";
-    src: url(fonts/Roboto-normal-bold.ttf) format("truetype");
+    src: url(fonts/Roboto-normal-black.ttf) format("truetype");
     font-style: normal;
-    font-weight: 700;
+    font-weight: 900;
 }
+
+@font-face {
+    font-family: "Roboto";
+    src: url(fonts/Roboto-normal-light.ttf) format("truetype");
+    font-style: normal;
+    font-weight: 300;
+}
+
+
 
 * {
     font-family: "Roboto", sans-serif;
     /* Defined font for all text in this website*/
+}
+
+.header, .hero, .footer {
+    background-color: #1F2937;
+}
+
+.logo {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.webtitle {
+    font-size: 48px;
+    color: #F9FAF8
 }
