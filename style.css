@@ -1,0 +1,14 @@
+@font-face {
+    font-family: "Roboto";
+    src: url(fonts/Roboto-normal.ttf) format("truetype");
+    font-style: normal;
+    font-weight: 400;
+    /* font-style here specifies whether is italic or normal form of imported font */
+}
+
+@font-face {
+    font-family: "Roboto";
+    src: url(fonts/Roboto-normal-bold.ttf) format("truetype");
+    font-style: normal;
+    font-weight: 700;
+}
