@@ -20,6 +20,12 @@
     font-weight: 300;
 }
 
+@font-face {
+    font-family: "Roboto";
+    src: url(fonts/Roboto-italic-light.ttf) format("truetype");
+    font-style: italic;
+    font-weight: 300;
+}
 
 
 * {
@@ -37,6 +43,33 @@
 }
 
 .webtitle {
+    font-weight: 900;
     font-size: 48px;
-    color: #F9FAF8
+    color: #F9FAF8;
+}
+
+.heroparagraph {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+button {
+    background-color: #3882F6;
+}
+
+.infoheader {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+}
+
+.quotesection {
+    background-color: #E5E7EB;
+}
+
+.quote {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 300;
+    font-style: italic;
 }
