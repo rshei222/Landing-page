@@ -47,15 +47,31 @@ p {
     background-color: #1F2937;
 }
 
+.heroimage {
+    background-color: grey;
+    width: 400px;
+    height: auto;
+}
+
+img {
+    width: 400px;
+    height: auto;
+}
+
 .fullhero {
     display: flex;
     flex-direction: column;
-    padding: 10px 150px 150px;
+    padding: 10px 150px;
+    min-height: 300px;
 }
 
 .hero {
     display: flex;
+    flex: 1;
     flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    align-self: space-between;
 }
 
 .lefthero {
