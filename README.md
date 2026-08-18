@@ -1,1 +1,1 @@
-# Landing-page
+This project is a demonstration of structuring and building with html and CSS with the Flexbox model.
